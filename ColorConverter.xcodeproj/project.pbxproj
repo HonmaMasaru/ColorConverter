@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C31E1D1E29162DE500530FA6 /* ColorConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E1D1D29162DE500530FA6 /* ColorConverterApp.swift */; };
-		C31E1D2029162DE500530FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E1D1F29162DE500530FA6 /* ContentView.swift */; };
+		C31E1D2029162DE500530FA6 /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E1D1F29162DE500530FA6 /* ColorConverter.swift */; };
 		C31E1D2229162DE600530FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31E1D2129162DE600530FA6 /* Assets.xcassets */; };
 		C31E1D2529162DE600530FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31E1D2429162DE600530FA6 /* Preview Assets.xcassets */; };
+		C31E1D2D29162DFB00530FA6 /* ColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E1D2C29162DFB00530FA6 /* ColorCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C31E1D1A29162DE500530FA6 /* ColorConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31E1D1D29162DE500530FA6 /* ColorConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverterApp.swift; sourceTree = "<group>"; };
-		C31E1D1F29162DE500530FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C31E1D1F29162DE500530FA6 /* ColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverter.swift; sourceTree = "<group>"; };
 		C31E1D2129162DE600530FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31E1D2429162DE600530FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C31E1D2629162DE600530FA6 /* ColorConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ColorConverter.entitlements; sourceTree = "<group>"; };
+		C31E1D2C29162DFB00530FA6 /* ColorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				C31E1D1D29162DE500530FA6 /* ColorConverterApp.swift */,
-				C31E1D1F29162DE500530FA6 /* ContentView.swift */,
+				C31E1D1F29162DE500530FA6 /* ColorConverter.swift */,
 				C31E1D2129162DE600530FA6 /* Assets.xcassets */,
 				C31E1D2629162DE600530FA6 /* ColorConverter.entitlements */,
 				C31E1D2329162DE600530FA6 /* Preview Content */,
+				C31E1D2C29162DFB00530FA6 /* ColorCode.swift */,
 			);
 			path = ColorConverter;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31E1D2029162DE500530FA6 /* ContentView.swift in Sources */,
+				C31E1D2029162DE500530FA6 /* ColorConverter.swift in Sources */,
+				C31E1D2D29162DFB00530FA6 /* ColorCode.swift in Sources */,
 				C31E1D1E29162DE500530FA6 /* ColorConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +274,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorConverter/Preview Content\"";
-				DEVELOPMENT_TEAM = C9ZHF8Y295;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Color Converter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,10 +303,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorConverter/Preview Content\"";
-				DEVELOPMENT_TEAM = C9ZHF8Y295;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Color Converter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
